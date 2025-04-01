@@ -1,0 +1,59 @@
+/* Change background colors for body and all sections/blocks */
+
+body {
+  background-color: #2c3e50; /* Dark blue-gray background for the whole page */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px!important;
+}
+
+/* Header Styles */
+header {
+  position: relative;
+  background-color: #34495e; /* Slightly lighter dark blue for header */
+  color: #ecf0f1; /* Light text color */
+  padding: 0 25px;
+}
+#games a {
+	font-size: 20px;
+}
+header::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3); /* Dark overlay */
+  z-index: 0;
+}
+
+header .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #2980b9; /* Vivid blue for navigation */
+  color: #ffffff;
+  padding: 0 25px;
+}
+
+/* Section Styles */
+section {
+  background-color: #ecf0f1; /* Light background for content sections */
+  color: #2c3e50; /* Dark text for contrast */
+  padding: 20px 25px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #34495e; /* Matching header color for footer */
+  color: #bdc3c7; /* Soft light gray text */
+  padding: 20px 25px;
+}
+
+/* Apply the font to all major blocks */
+header, section, footer, nav {
+  font-family: 'Montserrat', sans-serif;
+}
+.bg-orange-500 {
+	background: rgb(19 192 85)!important;
+}
